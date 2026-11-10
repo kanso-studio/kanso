@@ -1,0 +1,12 @@
+# robots.txt za https://kanso.rs
+# Kanso — izrada statičkih sajtova za mikro biznise
+
+User-agent: *
+Allow: /
+
+# Cloudflare Pages preview deployment-i (opciono)
+# Ako želiš da sprečiš indeksiranje preview URL-ova, otkomentariši:
+# Disallow: /cdn-cgi/
+
+# Sitemap
+Sitemap: https://kanso.rs/sitemap.xml
